@@ -1,9 +1,9 @@
   name: Publish Notion website to GitHub Pages
 
 on:
-4  push:
-5    branches:
-6      - main
+  push:
+    branches:
+      - main
   
 permissions:
   contents: write
