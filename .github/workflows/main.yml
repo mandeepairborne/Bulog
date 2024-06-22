@@ -1,8 +1,9 @@
- name: Publish Notion website to GitHub Pages
+  name: Publish Notion website to GitHub Pages
 
 on:
-  # Manual update only.
-  workflow_dispatch:
+4  push:
+5    branches:
+6      - main
   
 permissions:
   contents: write
